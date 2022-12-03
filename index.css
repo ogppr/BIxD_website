@@ -1,0 +1,65 @@
+.homepage{
+  width: 80%;
+  margin: 60px auto;
+}
+.homepage2{
+  width: 100%;
+  margin: 50px auto 0 auto;
+  padding: 40px 0px;
+}
+
+.booktext{
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: -6px;
+
+  animation-name: fadeInUp;
+  animation-duration: 1.2s;
+  animation-fill-mode: both;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+.booktext h1{
+  margin-bottom: 120px;
+  margin-top: 140px;
+  font-size: 172px;
+  line-height: 200px;
+  font-weight: 600;
+}
+.booktext h2{
+  font-size: 200px;
+  line-height: 170px;
+  font-weight: 600;
+}
+.booktext p{
+  margin-bottom: 160px;
+  margin-top: -140px;
+  margin-left: 14px;
+}
+
+#authors{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+#authors a{
+  text-decoration: none;
+}
+#authors a:hover{
+  text-decoration: underline;
+}
+.authorstitle{
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 1px;
+  margin-bottom: 40px;
+}
