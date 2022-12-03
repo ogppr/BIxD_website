@@ -108,6 +108,7 @@ a {
 }
 .topLogo a:hover{
   text-decoration: none;
+  color: blue;
 }
 .navLinks{
   margin: auto 0 0 auto;

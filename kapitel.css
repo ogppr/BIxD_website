@@ -32,10 +32,10 @@
   transition: 0.3s;
 }
 .tabs button:hover {
-  color: #F55;
+  color: blue;
 }
 .tabs button.active {
-  color: #F55;
+  color: blue;
 }
 .tablinks{
   color: black;
