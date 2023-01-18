@@ -1,0 +1,39 @@
+.homepage{
+  width: 80%;
+  margin: 60px auto;
+}
+
+.booktext{
+  width: 100%;
+  margin-top: -110px;
+
+  animation-name: fadeInUp;
+  animation-duration: 1.2s;
+  animation-fill-mode: both;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+.booktext h2{
+  font-size: 200px;
+  line-height: 170px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.booktext h2:hover{
+  color: blue;
+  transition: 0.3s;
+}
+.booktext p{
+  margin-bottom: 160px;
+  margin-top: -140px;
+  margin-left: 14px;
+  font-weight: 600;
+}

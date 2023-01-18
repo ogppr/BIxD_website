@@ -1,0 +1,64 @@
+.homepage{
+  width: 100%;
+  margin: 34px auto 80px auto;
+  padding: 20px 0px;
+  line-height: 26px;
+}
+
+.sprints{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 120px;
+}
+.sprints a:hover{
+  text-decoration: underline;
+}
+.sprints img{
+  overflow: hidden;
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+}
+.sprints p{
+  overflow: hidden;
+  width: 100%;
+}
+.sprint{
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  margin-bottom: 20px;
+  padding-bottom: 4px;
+}
+.sprint p{
+  font-size: 16px;
+}
+.desctext{
+  overflow: hidden;
+  width: 100%;
+  margin-top: 10px;
+}
+.desctext img{
+  margin-top: 20px;
+}
+.cols1{
+  width: 100%;
+}
+.cols1 .col1{
+  max-width: 50%;
+}
+.cols1 .col2{
+  min-width: 300px;
+}
+.cols2{
+  width: 100%;
+  padding-bottom: 40px;
+}
+.cols2 .col1{
+  max-width: 70%;
+  padding-right: 40px;
+}
+.cols2 a{
+  text-decoration: underline;
+}

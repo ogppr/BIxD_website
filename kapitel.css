@@ -1,0 +1,100 @@
+.homepage{
+  width: 80%;
+  margin: 40px auto 100px auto;
+  padding: 20px 0px;
+  min-height: 600px;
+}
+.homepage2{
+  display: inline-flex;
+  justify-items: center;
+}
+
+.tabs{
+  position: fixed;
+  background-color: transparent;
+  border-right: solid 1px black;
+  width: 160px;
+}
+.tabs button {
+  font-family: "Roboto", sans-serif;
+  color: var(--headerColor);
+  background-color: white;
+  font-size: 15px;
+  font-weight: 500;
+
+  height: 60px;
+  display: block;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 0px;
+  transition: 0.3s;
+}
+.tabs button:hover {
+  color: blue;
+}
+.tabs button.active {
+  color: blue;
+}
+.tablinks{
+  color: black;
+  margin-bottom: -10px;
+}
+.tabcontent{
+  animation: fadeEffect 0.5s;
+}
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.container{
+  width: 100%;
+  margin: 0 auto;
+  margin-left: 260px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.container img{
+  width: 300px;
+  margin-left: 27%;
+  margin-bottom: 60px;
+  margin-top: -20px;
+}
+.container a:hover{
+  text-decoration: underline;
+}
+.container p{
+  overflow: hidden;
+  width: 100%;
+}
+.discovertext{
+  overflow: hidden;
+  width: 100%;
+  color: black;
+}
+.personas{
+  display: inline-flex;
+  width: 100%;
+}
+.persona1 {
+  padding-right: 26px;
+}
+
+.container h1{
+  margin-bottom: 120px;
+  margin-top: -2px;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 600;
+}
+.container p{
+  margin-bottom: 80px;
+  line-height: 26px;
+}
+.container h4{
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-top: 30px;
+}
